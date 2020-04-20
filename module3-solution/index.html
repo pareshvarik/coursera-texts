@@ -1,13 +1,205 @@
 <!DOCTYPE html>
-<html>
+<html lang="zxx">
+
 <head>
-	<title>Module 3 solution</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
+
 <body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="index.html"><h1>Food,LLC</h1></a>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse">
+                    <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs text-center">
+                        <li>
+                            <a href="#chicken-tile"><br class="hidden-xs"> Chicken</a>
+                        </li>
+                        <li>
+                            <a href="#beef-tile"><br class="hidden-xs"> Beef</a>
+                        </li>
+                        <li>
+                            <a href="#sushi-tile"><br class="hidden-xs"> Sushi</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="main-content" class="container">
+        <h2 id="top-heading" class="text-center">Our Menu</h2>
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="chicken-tile">
+                    <section>
+                        <h3 class="text-center">CHICKEN</h3>
+                        <p>
+                        What I want to talk to you about tonight is strictly speaking not on the character of physical laws. Because one might imagine at least that one's talking about nature, when one's talking about the character of physical laws. But I don't want to talk about nature, but rather how we stand relative to nature now. I want to tell you what we think we know and what there is to guess and how one goes about guessing it.
+
+Someone suggested that it would be ideal if, as I went along, I would slowly explain how to guess the laws and then create a new law for you right as I went along.
+
+I don't know whether I'll be able to do that. But first, I want to tell about what the present situation is, what it is that we know about the physics. You think that I've told you everything already, because in all the lectures, I told you all the great principles that are known.
+
+But the principles must be principles about something. The principles that I just spoke of, the conservation of energy– the energy of something– and quantum mechanical laws are quantum mechanical principles about something. And all these principles added together still doesn't tell us what the content is of the nature, that is, what we're talking about. So I will tell you a little bit about the stuff, on which all these principles are supposed to have been working.
+
+First of all is matter, and remarkably enough, all matter is the same. The matter of which the stars are made is known to be the same as the matter on the earth, by the character of the light that's emitted by those stars– they give a kind of fingerprint, by which you can tell that it's the same kind of atoms in the stars. As on the earth, the same kind of atoms appear to be in living creatures as in non-living creatures. Frogs are made out of the same goop– in different arrangement– than rocks.
+
+So that makes our problem simpler. We have nothing but atoms, all the same, everywhere. And the atoms all seem to be made from the same general constitution. They have a nucleus, and around the nucleus there are electrons.
+
+So I begin to list the parts of the world that we think we know about. One of them is electrons, which are the particles on the outside the atoms. Then there are the nuclei. But those are understood today as being themselves made up of two other things, which are called neutrons and protons. They're two particles.
+
+Incidentally, we have to see the stars and see the atoms and they emit light. And the light is described by particles, themselves, which are called photons. And at the beginning, we spoke about gravitation. And if the quantum theory is right, then the gravitation should have some kind of waves, which behave like particles too. And they call those gravitons. If you don't believe in that, just read gravity here, it's the same.
+
+Now finally, I did mention that in what's called beta decay, in which a neutron can disintegrate into a proton and an electron and a neutrino– or alien anti-neutrino– there's another particle, here, a neutrino. In addition to all the particles that I'm listing, there are of course all the anti-particles. But that's just a quick statement and takes care of doubling the number of particles immediately. But there's no complications.
+
+Now with the particles that I've listed here, all of the low energy phenomena, all of in fact ordinary phenomena that happen everywhere in the universe as far as we know, with the exception of here and there some very high energy particle does something, or in a laboratory we've been able to do some peculiar things. But if we leave out those special cases, all ordinary phenomena are presumably explained by the action and emotions of these kinds of things.
+
+For example, life itself is supposedly made, if understood– I mean understandable in principle– from the action of movements of atoms. And those atoms are made out of neutrons, protons, and electrons. I must immediately say that when we say, we understand it in principle, I only mean that we think we would, if we could figure everything out, find that there's nothing new in physics to be discovered, in order to understand the phenomena of light. Or, for instance, for the fact that the stars emit energy– solar energy or stellar energy– is presumably also understood in terms of nuclear reactions among these particles and so on.
+
+And all kinds of details of the way atoms behave are accurately described with this kind of model, at least as far as we know at present. In fact, I can say that in this range of phenomena today, as far as I know there are no phenomena that we are sure cannot be explained this way, or even that there's deep mystery about.
+This wasn't always possible. There was, for instance, for a while a phenomenon called super conductivity– there still is the phenomenon– which is that metals conduct electricity without resistance at low temperatures. And it was not at first obvious that this was a consequence of the known laws with these particles. But it turns out that it has been thought through carefully enough. And it's seen, in fact, to be a consequence of known laws.
+
+There are other phenomena, such as extrasensory perception, which cannot be explained by this known knowledge of physics here. And it is interesting, however, that that phenomena had not been well-established, and that we cannot guarantee that it's there. So if it could be demonstrated, of course that would prove that the physics is incomplete. And therefore, it's extremely interesting to physicists, whether it's right or wrong. And many, many experiments exist which show it doesn't work.
+
+The same goes for astrological influences. If it were true that the stars could affect the day that it was good to go to the dentist, then– because in America we have that kind of astrology– then it would be wrong. The physics theory would be wrong, because there's no mechanism understandable in principle from these things that would make it go. And that's the reason that there's some skepticism among scientists, with regard to those ideas.
+
+On the other hand, in the case of hypnotism, at first it looked like that also would be impossible, when it was described incompletely. But now that it's known better, it is realized that it is not absolutely impossible that hypnosis could occur through normal physiological but unknown processes. It doesn't require some special, new kind of course.
+
+Now, today although the knowledge or the theory of what goes on outside the nucleus of the atom seems precise and complete enough, in the sense that given enough time, we can calculate anything as accurately as it can be measured, it turns out that the forces between neutrons and protons, which constitute the nucleus, are not so completely known and are not understood at all well. And that's what I mean by– that is, that we cannot today, we do not today understand the forces between neutrons and protons to the extent that if you wanted me to, and give me enough time and computers, I could calculate exactly the energy levels of carbon or something like that. Because we don't know enough about that. Although we can do the corresponding thing for the energy levels of the outside electrons of the atom, we cannot for the nuclei. So the nuclear forces are still not understood very well.
+                        </p>
+                        <p>
+                            (End of Chicken section) <a href="#top-heading">Back to Top</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <div id="beef-tile">
+                    <section>
+                        <h3 class="text-center">BEEF</h3>
+                        <p>
+                            What I want to talk to you about tonight is strictly speaking not on the character of physical laws. Because one might imagine at least that one's talking about nature, when one's talking about the character of physical laws. But I don't want to talk about nature, but rather how we stand relative to nature now. I want to tell you what we think we know and what there is to guess and how one goes about guessing it.
+
+Someone suggested that it would be ideal if, as I went along, I would slowly explain how to guess the laws and then create a new law for you right as I went along.
+
+I don't know whether I'll be able to do that. But first, I want to tell about what the present situation is, what it is that we know about the physics. You think that I've told you everything already, because in all the lectures, I told you all the great principles that are known.
+
+But the principles must be principles about something. The principles that I just spoke of, the conservation of energy– the energy of something– and quantum mechanical laws are quantum mechanical principles about something. And all these principles added together still doesn't tell us what the content is of the nature, that is, what we're talking about. So I will tell you a little bit about the stuff, on which all these principles are supposed to have been working.
+
+First of all is matter, and remarkably enough, all matter is the same. The matter of which the stars are made is known to be the same as the matter on the earth, by the character of the light that's emitted by those stars– they give a kind of fingerprint, by which you can tell that it's the same kind of atoms in the stars. As on the earth, the same kind of atoms appear to be in living creatures as in non-living creatures. Frogs are made out of the same goop– in different arrangement– than rocks.
+
+So that makes our problem simpler. We have nothing but atoms, all the same, everywhere. And the atoms all seem to be made from the same general constitution. They have a nucleus, and around the nucleus there are electrons.
+
+So I begin to list the parts of the world that we think we know about. One of them is electrons, which are the particles on the outside the atoms. Then there are the nuclei. But those are understood today as being themselves made up of two other things, which are called neutrons and protons. They're two particles.
+
+Incidentally, we have to see the stars and see the atoms and they emit light. And the light is described by particles, themselves, which are called photons. And at the beginning, we spoke about gravitation. And if the quantum theory is right, then the gravitation should have some kind of waves, which behave like particles too. And they call those gravitons. If you don't believe in that, just read gravity here, it's the same.
+
+Now finally, I did mention that in what's called beta decay, in which a neutron can disintegrate into a proton and an electron and a neutrino– or alien anti-neutrino– there's another particle, here, a neutrino. In addition to all the particles that I'm listing, there are of course all the anti-particles. But that's just a quick statement and takes care of doubling the number of particles immediately. But there's no complications.
+
+Now with the particles that I've listed here, all of the low energy phenomena, all of in fact ordinary phenomena that happen everywhere in the universe as far as we know, with the exception of here and there some very high energy particle does something, or in a laboratory we've been able to do some peculiar things. But if we leave out those special cases, all ordinary phenomena are presumably explained by the action and emotions of these kinds of things.
+
+For example, life itself is supposedly made, if understood– I mean understandable in principle– from the action of movements of atoms. And those atoms are made out of neutrons, protons, and electrons. I must immediately say that when we say, we understand it in principle, I only mean that we think we would, if we could figure everything out, find that there's nothing new in physics to be discovered, in order to understand the phenomena of light. Or, for instance, for the fact that the stars emit energy– solar energy or stellar energy– is presumably also understood in terms of nuclear reactions among these particles and so on.
+
+And all kinds of details of the way atoms behave are accurately described with this kind of model, at least as far as we know at present. In fact, I can say that in this range of phenomena today, as far as I know there are no phenomena that we are sure cannot be explained this way, or even that there's deep mystery about.
+This wasn't always possible. There was, for instance, for a while a phenomenon called super conductivity– there still is the phenomenon– which is that metals conduct electricity without resistance at low temperatures. And it was not at first obvious that this was a consequence of the known laws with these particles. But it turns out that it has been thought through carefully enough. And it's seen, in fact, to be a consequence of known laws.
+
+There are other phenomena, such as extrasensory perception, which cannot be explained by this known knowledge of physics here. And it is interesting, however, that that phenomena had not been well-established, and that we cannot guarantee that it's there. So if it could be demonstrated, of course that would prove that the physics is incomplete. And therefore, it's extremely interesting to physicists, whether it's right or wrong. And many, many experiments exist which show it doesn't work.
+
+The same goes for astrological influences. If it were true that the stars could affect the day that it was good to go to the dentist, then– because in America we have that kind of astrology– then it would be wrong. The physics theory would be wrong, because there's no mechanism understandable in principle from these things that would make it go. And that's the reason that there's some skepticism among scientists, with regard to those ideas.
+
+On the other hand, in the case of hypnotism, at first it looked like that also would be impossible, when it was described incompletely. But now that it's known better, it is realized that it is not absolutely impossible that hypnosis could occur through normal physiological but unknown processes. It doesn't require some special, new kind of course.
+
+Now, today although the knowledge or the theory of what goes on outside the nucleus of the atom seems precise and complete enough, in the sense that given enough time, we can calculate anything as accurately as it can be measured, it turns out that the forces between neutrons and protons, which constitute the nucleus, are not so completely known and are not understood at all well. And that's what I mean by– that is, that we cannot today, we do not today understand the forces between neutrons and protons to the extent that if you wanted me to, and give me enough time and computers, I could calculate exactly the energy levels of carbon or something like that. Because we don't know enough about that. Although we can do the corresponding thing for the energy levels of the outside electrons of the atom, we cannot for the nuclei. So the nuclear forces are still not understood very well.
+                        </p>
+                        <p>
+                            (End of Beef section) <a href="#top-heading">Back to Top</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <!-- <div class="clearfix visible-md-block"></div> -->
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <div id="sushi-tile">
+                    <section>
+                        <h3 class="text-center">SUSHI</h3>
+                        <p>
+                            What I want to talk to you about tonight is strictly speaking not on the character of physical laws. Because one might imagine at least that one's talking about nature, when one's talking about the character of physical laws. But I don't want to talk about nature, but rather how we stand relative to nature now. I want to tell you what we think we know and what there is to guess and how one goes about guessing it.
+
+Someone suggested that it would be ideal if, as I went along, I would slowly explain how to guess the laws and then create a new law for you right as I went along.
+
+I don't know whether I'll be able to do that. But first, I want to tell about what the present situation is, what it is that we know about the physics. You think that I've told you everything already, because in all the lectures, I told you all the great principles that are known.
+
+But the principles must be principles about something. The principles that I just spoke of, the conservation of energy– the energy of something– and quantum mechanical laws are quantum mechanical principles about something. And all these principles added together still doesn't tell us what the content is of the nature, that is, what we're talking about. So I will tell you a little bit about the stuff, on which all these principles are supposed to have been working.
+
+First of all is matter, and remarkably enough, all matter is the same. The matter of which the stars are made is known to be the same as the matter on the earth, by the character of the light that's emitted by those stars– they give a kind of fingerprint, by which you can tell that it's the same kind of atoms in the stars. As on the earth, the same kind of atoms appear to be in living creatures as in non-living creatures. Frogs are made out of the same goop– in different arrangement– than rocks.
+
+So that makes our problem simpler. We have nothing but atoms, all the same, everywhere. And the atoms all seem to be made from the same general constitution. They have a nucleus, and around the nucleus there are electrons.
+
+So I begin to list the parts of the world that we think we know about. One of them is electrons, which are the particles on the outside the atoms. Then there are the nuclei. But those are understood today as being themselves made up of two other things, which are called neutrons and protons. They're two particles.
+
+Incidentally, we have to see the stars and see the atoms and they emit light. And the light is described by particles, themselves, which are called photons. And at the beginning, we spoke about gravitation. And if the quantum theory is right, then the gravitation should have some kind of waves, which behave like particles too. And they call those gravitons. If you don't believe in that, just read gravity here, it's the same.
+
+Now finally, I did mention that in what's called beta decay, in which a neutron can disintegrate into a proton and an electron and a neutrino– or alien anti-neutrino– there's another particle, here, a neutrino. In addition to all the particles that I'm listing, there are of course all the anti-particles. But that's just a quick statement and takes care of doubling the number of particles immediately. But there's no complications.
+
+Now with the particles that I've listed here, all of the low energy phenomena, all of in fact ordinary phenomena that happen everywhere in the universe as far as we know, with the exception of here and there some very high energy particle does something, or in a laboratory we've been able to do some peculiar things. But if we leave out those special cases, all ordinary phenomena are presumably explained by the action and emotions of these kinds of things.
+
+For example, life itself is supposedly made, if understood– I mean understandable in principle– from the action of movements of atoms. And those atoms are made out of neutrons, protons, and electrons. I must immediately say that when we say, we understand it in principle, I only mean that we think we would, if we could figure everything out, find that there's nothing new in physics to be discovered, in order to understand the phenomena of light. Or, for instance, for the fact that the stars emit energy– solar energy or stellar energy– is presumably also understood in terms of nuclear reactions among these particles and so on.
+
+And all kinds of details of the way atoms behave are accurately described with this kind of model, at least as far as we know at present. In fact, I can say that in this range of phenomena today, as far as I know there are no phenomena that we are sure cannot be explained this way, or even that there's deep mystery about.
+This wasn't always possible. There was, for instance, for a while a phenomenon called super conductivity– there still is the phenomenon– which is that metals conduct electricity without resistance at low temperatures. And it was not at first obvious that this was a consequence of the known laws with these particles. But it turns out that it has been thought through carefully enough. And it's seen, in fact, to be a consequence of known laws.
+
+There are other phenomena, such as extrasensory perception, which cannot be explained by this known knowledge of physics here. And it is interesting, however, that that phenomena had not been well-established, and that we cannot guarantee that it's there. So if it could be demonstrated, of course that would prove that the physics is incomplete. And therefore, it's extremely interesting to physicists, whether it's right or wrong. And many, many experiments exist which show it doesn't work.
+
+The same goes for astrological influences. If it were true that the stars could affect the day that it was good to go to the dentist, then– because in America we have that kind of astrology– then it would be wrong. The physics theory would be wrong, because there's no mechanism understandable in principle from these things that would make it go. And that's the reason that there's some skepticism among scientists, with regard to those ideas.
+
+On the other hand, in the case of hypnotism, at first it looked like that also would be impossible, when it was described incompletely. But now that it's known better, it is realized that it is not absolutely impossible that hypnosis could occur through normal physiological but unknown processes. It doesn't require some special, new kind of course.
+
+Now, today although the knowledge or the theory of what goes on outside the nucleus of the atom seems precise and complete enough, in the sense that given enough time, we can calculate anything as accurately as it can be measured, it turns out that the forces between neutrons and protons, which constitute the nucleus, are not so completely known and are not understood at all well. And that's what I mean by– that is, that we cannot today, we do not today understand the forces between neutrons and protons to the extent that if you wanted me to, and give me enough time and computers, I could calculate exactly the energy levels of carbon or something like that. Because we don't know enough about that. Although we can do the corresponding thing for the energy levels of the outside electrons of the atom, we cannot for the nuclei. So the nuclear forces are still not understood very well.
+                        </p>
+                        <p>
+                            (End of Sushi section) <a href="#top-heading">Back to Top</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <!-- <div class="clearfix visible-lg-block"></div> -->
+        </div>
+    </div>
+    <div class="clearfix visible-lg-block"></div>
+
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/script.js"></script> -->
 
 </body>
+
 </html>
